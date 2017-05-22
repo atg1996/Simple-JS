@@ -95,7 +95,7 @@ console.log ( false ? 1 : 2) ;
 */
 
 
-/*automatic type conversion
+ /*automatic type conversion
 console.log (8 * null )
 // ! 0
 console.log ("5" - 1)
