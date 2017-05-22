@@ -1,4 +1,4 @@
-/*if (true) {
+ /*if (true) {
   var name = '123';
 }
 console.log(name);
@@ -7,6 +7,7 @@ console.log(name);
 /*
 if (true) {
   let name = '123';
+
 }
 console.log(name);
 */
@@ -25,7 +26,7 @@ if (5<3) {
 }
 */
 
-/*endless cycle
+/*
 let i=0;
 while (i < 4) {
   console.log(2);
@@ -43,4 +44,51 @@ console.log(students[40]);
 const friends = {friend1: '123456' , friend2: '789456'};
 console.log(friends.friend1);
 console.log(friends['friend2']);
+*/
+/*
+function fac( n ) {
+	if ( n == 0 )
+		return 1;
+	else
+		return fac( n - 1 ) * n;
+}
+console.log(fac(8));
+*/
+/*
+if (0 / 0 > 5 ) {
+	console.log('you are an idiot');
+} else {
+	console.log('fuckin idiot');
+}
+*/
+/* -Infinity
+console.log( -3 / 0 );
+*/
+/* NaN
+console.log( 0 / 0 );
+*/
+/*Boolean simplest
+console.log( 3 < 2 );
+*/
+/* Logical operators
+console.log(5<4 && 12>4);
+console.log(5<4 || 12>4);
+console.log(!5<4);
+*/
+/* ternary operator
+console.log ( true ? 1 : 2) ;
+
+console.log ( false ? 1 : 2) ;
+*/
+/*automatic type conversion
+console.log (8 * null )
+// ! 0
+console.log ("5" - 1)
+// ! 4
+console.log ("5" + 1)
+// ! 51
+console.log (" five " * 2)
+// ! NaN
+console.log ( false == 0)
+// ! true
 */
